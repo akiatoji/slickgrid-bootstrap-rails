@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["akiatoji@gmail.com"]
   gem.description   = %q{Rails 3.x integration of SlickGrid with Bootstrap}
   gem.summary       = %q{Rails 3.x integration of SlickGrid with Bootstrap}
-  gem.homepage      = "www.github.com/akiatoji/slickgrid-bootstrap-rails"
+  gem.homepage      = "http://github.com/akiatoji/slickgrid-bootstrap-rails"
 
   gem.add_dependency  "railties", "~> 3.0"
   gem.add_dependency  "jquery-dragdrop-rails"
