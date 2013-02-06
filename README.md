@@ -3,20 +3,23 @@
 SlickGrid rails integration with Bootstrap support.
 
 Integrates mleibman/SlickGrid into your rails app.
+
 SlickGrid is a superb editable grid, but integration into Rails was
-a bit messy and jQuery UI themes didn't always look too great.   With this gem,
-you can
+a bit messy and jQuery UI themes didn't always look too good on Bootstrap themed pages.
+
+This gem takes care of:
 
 * Fixes hardcoded pathing in SlickGrid that breaks Rails asset pipeline
 * Eases jquery.drag.drag/drop integration (with akiatoji/jquery-dragdrop-rails)
-* Requires less based integration with Bootstrap (with seyhunak/twitter-bootstrap-rails)
+* Less based integration with Bootstrap (with seyhunak/twitter-bootstrap-rails)
 * Bootstrap styling with minimal markup changes (credits to reeblazs/SlickGrid-touch)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add to your application's Gemfile:
 
 ```
+gem 'jquery-dragdrop-rails'
 gem 'slickgrid-bootstrap-rails'
 ```
 
@@ -33,8 +36,8 @@ Pre-requisite
 -------------
 
 SlickGrid uses jQuery UI so you need it in your assets.
-slickgrid-bootstrap-rails doesn't have any direct support to pull-in jQuery UI.
-This is so that you can add themed jQuery UI assets yourself.
+slickgrid-bootstrap-rails doesn't have any direct support to pull in jQuery UI.
+It's up to you how you do it, this is so that you can add themed jQuery UI assets yourself.
 
 Alternatively, you can use joliss/jquery-ui-rails.
 
