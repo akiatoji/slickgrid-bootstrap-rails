@@ -1,4 +1,4 @@
-# Slickgrid::Bootstrap::Rails
+# slickgrid-bootstrap-rails
 
 SlickGrid rails integration with Bootstrap support.
 
