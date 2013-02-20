@@ -1,4 +1,5 @@
 //= require jquery-dragdrop-rails
+//= require jquery-migrate.js
 //= require slick.core
 //= require slick.dataview
 //= require slick.editors
@@ -9,5 +10,6 @@
 //= require_dir ./plugins
 //= require_dir ./bootstrap
 
-
-
+$(function() {
+  jQuery.migrateMute = true
+});
